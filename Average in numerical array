@@ -1,0 +1,11 @@
+int main ()
+{
+const int a=24;
+double s[a];
+double total =0;
+double average;
+for(int count=0;count<a;count++;)
+total+=s[count];
+average =total/a;
+cout<<average;
+}
