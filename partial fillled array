@@ -1,0 +1,19 @@
+int main()
+{
+const int a=100
+int s[a];
+int count=0;
+int number;
+cout<<"enter a number or -1 to quit: ";
+cin>>number;
+while(number !=-1 && count<a)
+{
+count++;
+s[count -1]=number;
+cout<<"Enter a number or -1 to quit: ";
+cin>>number;
+}
+for(int index =0;index<count;index++)
+{cout<<s[index]<<endl;}
+return 0;
+}
