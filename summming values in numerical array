@@ -1,0 +1,9 @@
+int main ()
+{
+const int a=24;
+int s[a];
+int total =0;
+for(int count=0;count<a;count++;)
+total+=s[count];
+cout<<total;
+}
