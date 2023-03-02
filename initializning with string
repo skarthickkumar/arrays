@@ -1,0 +1,8 @@
+int main()
+{
+char name 1="Holly";
+char name 2={ 'w','o','o','d'};
+cout<<name 1<<end l;
+cout<<name 2;
+return 0;
+}
