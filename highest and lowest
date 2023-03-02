@@ -1,0 +1,13 @@
+int main()
+{
+const int a=50;
+int s[a];
+int count ,highiest;
+highiest=s[0];
+for(count=0;count<a;count++)
+{
+if(s[count]>highest)
+highest= s[count];
+}
+return 0;
+}
