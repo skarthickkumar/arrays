@@ -1,0 +1,14 @@
+
+int main()
+{
+const int month =12;
+int day[month] ={31,28,31,30,31,30,31,31,30,31,30,31};
+{
+for(int count =0; count<month; count++;)
+{
+cout<<"month"<<(count+1)<<"has";
+cout<<days[count]<<"days";
+}
+return 0;
+}
+
