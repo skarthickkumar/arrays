@@ -1,0 +1,13 @@
+void showvalue(int[],int);
+int main()
+{
+const int s;
+int a[s]={1,2,3};
+showvalue(a,s);
+return 0;
+}
+void showvalue(int ab[],int si)
+{
+for (int i=0;i<s;i++)
+cout<<ab[i];
+}
