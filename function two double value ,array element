@@ -1,0 +1,23 @@
+void doublearray(int[],int);
+void showvalue(int[],int);
+int main()
+{
+const int s=3;
+int a[s]={1,2,3};
+cout<<"array values are ";
+showvalue(a,s);
+doublearray(a,s);
+cout<<"after change";
+showvalue(a,s);
+return 0;
+}
+viod doublearray(int ab[],si)
+{
+for(int i=0;i<s;i++)
+ab[i]*=2;
+}
+void showvalue( int ab[],int)
+{ 
+for(int i=0;i<s;i++)
+cout<< ab[i];
+}
